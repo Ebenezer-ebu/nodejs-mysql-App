@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-mysql-api",
+  "version": "1.0.0",
+  "description": "A REST API with nodejs and mysql",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Ebenezer Ifezulike",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "fastest-validator": "^1.11.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.3",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.12",
+    "sequelize": "^6.6.5"
+  }
+}
